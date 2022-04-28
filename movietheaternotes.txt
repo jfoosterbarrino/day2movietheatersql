@@ -1,0 +1,13 @@
+customer -> customer_concession -> concession  *many to many
+
+staff <- ticket -> movie  *ticket will connect to staff, movie, and customer
+
+concession only connect to customer
+
+movie -> movie_actor -> actor  *many to many
+
+staff -> ticket
+
+actor only connect to movie
+
+

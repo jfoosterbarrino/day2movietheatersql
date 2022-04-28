@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "DVD_BASE",
+            "connectString": "postgres://gnibtecg:jMd7XT4NK2EhgqdxHPAXNGuZR4zZ-axM@isilo.db.elephantsql.com/gnibtecg"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Movie Theater",
+            "connectString": "postgres://nhucrrma:kL2zG-qiMcU_DsX30TPKnjuglNBAlf0b@chunee.db.elephantsql.com/nhucrrma"
+        }
+    ]
+}
